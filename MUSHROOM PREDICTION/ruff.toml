@@ -1,0 +1,165 @@
+# Exclude a variety of commonly ignored directories
+exclude = [
+    ".dvc",
+    ".github",
+    ".git",
+    "test"
+]
+
+[lint]
+select = [
+  "RUF",   # ruff checks
+  "F",     # pyflakes
+  "E",     # pycodestyle
+  "W",     # pycodestyle
+  "C90",   # mcabbe
+  "I",     # isort
+  "N",     # pep8-naming
+  "D",     # pydocstyle
+  "UP",    # pyupgrade
+  "YTT",   # flake8-2020
+  "ASYNC", # flake8-async
+  "S",     # flake8-bandit
+  "FBT",   # flake8-boolean-trap
+  "B",     # flake8-bugbear
+  "A",     # flake8-builtins
+  "C4",    # flake8-comprehensions
+  "DTZ",   # flake8-datetimez
+  "T10",   # flake8-debugger
+  "EM",    # flake8-errmsg
+  "ISC",   # flake8-implicit-str-concat
+  "G",     # flake8-logging-format
+  "LOG",   # flake8-logging
+  "INP",   # flake8-no-pep420
+  "PIE",   # flake8-pie
+  "T20",   # flake8-print
+  "PYI",   # flake8-pyi
+  "PT",    # flake8-pytest-style
+  "Q",     # flake8-quotes
+  "RSE",   # flake8-raise
+  "RET",   # flake8-return
+  "SLOT",  # flake8-slot
+  "SIM",   # flake8-simplify
+  "TID",   # flake8-tidy-imports
+  "TCH",   # flake8-type-checking
+  "INT",   # flake8-gettext
+  "ARG",   # flake8-unused-arguments
+  "PTH",   # flake8-use-pathlib
+  "TD",    # flake8-todos
+  "ERA",   # flake8-eradicate
+  "PD",    # pandas-vet
+  "PGH",   # pygrep
+  "PL",    # pylint
+  "TRY",   # tryceratops
+  "FLY",   # flynt
+  "NPY",   # NumPy-specific rules
+  "PERF",  # Perflint
+  "FURB",  # refurb
+]
+ignore = [
+  "ANN",   # flake8-annotations
+  "D105",    # missing docstring in magic method
+  "PLR0913", # too many arguments in function definition ({c_args} > {max_args})
+  "D100",
+  "D202",
+  "D212",
+  "ANN101",  # missing type annotation for `self` in method
+  "ANN201",
+  "ANN001",
+  "ANN002",  # missing type annotation for `*args`
+  "ANN003",  # missing type annotation for `**kwargs`
+  "ANN204",  # missing return type annotation for special method
+  "D105",    # missing docstring in magic method
+  "PLR0913", # too many arguments in function definition ({c_args} > {max_args})
+  "D100",
+  "D101",
+  "D102",
+  "D103",
+  "D212",
+  "D202",
+  "D212",
+  "D400",
+  "D401",
+  "D400",
+  "D406",
+  "D407",
+  "D415",
+  "D413",
+  "D415",
+  "UP006",
+  "UP007",
+  "UP008",
+  "UP015",
+  "UP024",
+  "UP028",
+  "UP030",
+  "UP031",
+  "UP032",
+  "UP034",
+  "UP035",
+  "ERA",
+  "RET",
+  "PERF",
+  "TCH",
+  "RUF",
+  "ARG",
+  "FLY002",
+  "A001",
+  "A002",
+  "S101",
+  "S108",
+  "S113",
+  "S311",
+  "S701",
+  "DTZ",
+  "PTH",
+  "PGH004",
+  "PLR1714",
+  "PLR2004",
+  "PLR5501",
+  "PLR0912",
+  "PLW2901",
+  "FBT001",
+  "FBT002",
+  "FBT003",
+  "TD002",
+  "TD003",
+  "TD004",
+  "TRY003",
+  "TRY201",
+  "TRY300",
+  "TRY301",
+  "TRY400",
+  "G004",
+  "T201",
+  "SIM102",
+  "SIM115",
+  "SIM210",
+  "EM101",
+  "EM102",
+  "E501",
+  "PYI024",
+  "PYI036",
+  "INP001",
+  "B025",
+  "B904",
+  "W291",
+  "B905",
+  "N818",
+  "N803",
+  "N806",
+  "N807",
+  "PIE808",
+  "ISC001",
+]
+fixable = [
+    "I",      # isort
+]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+docstring-code-format = true
+docstring-code-line-length = "dynamic"

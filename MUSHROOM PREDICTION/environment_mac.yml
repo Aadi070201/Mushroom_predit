@@ -1,0 +1,44 @@
+name: mushroom312
+channels:
+  - defaults
+dependencies:
+  - asttokens
+  - brotli
+  - certifi
+  - colorama
+  - comm
+  - contourpy
+  - cycler
+  - debugpy
+  - decorator
+  - exceptiongroup
+  - executing
+  - fonttools
+  - freetype
+  - importlib-metadata
+  - importlib_metadata
+  - iniconfig
+  - ipykernel
+  - joblib
+  - kiwisolver
+  - krb5
+  - lcms2
+  - libiconv
+  - libjpeg-turbo
+  - mako
+  - matplotlib-base
+  - munkres
+  - pandas
+  - parse
+  - parse_type
+  - pickleshare
+  - pluggy
+  - pytest
+  - qhull
+  - scikit-learn
+  - tbb
+  - tomli
+  - typing-extensions
+  - xorg-libxau
+  - xorg-libxdmcp
+prefix: /opt/anaconda3/envs/mushroom312
